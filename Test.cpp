@@ -78,19 +78,19 @@ TEST_CASE("exceptions check") {
 //  check that the iterator does not throw exception if the organization is empty.
     CHECK_NOTHROW(for (auto it = organization.begin_level_order(); it != organization.end_level_order(); ++it)
     {
-//        in addition, make sure that the loop is empty because the organization is empty.
+//  in addition, make sure that the loop is empty because the organization is empty.
         throw invalid_argument( "\nthe first element is not exist in the tree." );
     });
 //  check that the iterator does not throw exception if the organization is empty.
     CHECK_NOTHROW(for (auto it = organization.begin_preorder(); it != organization.end_preorder(); ++it)
     {
-//        in addition, make sure that the loop is empty because the organization is empty.
+//  in addition, make sure that the loop is empty because the organization is empty.
         throw invalid_argument( "\nthe first element is not exist in the tree." );
     });
 //  check that the iterator does not throw exception if the organization is empty.
     CHECK_NOTHROW(for (auto it = organization.begin_reverse_order(); it != organization.reverse_order(); ++it)
     {
-//        in addition, make sure that the loop is empty because the organization is empty.
+//  in addition, make sure that the loop is empty because the organization is empty.
         throw invalid_argument( "\nthe first element is not exist in the tree." );
     });
 
@@ -199,7 +199,5 @@ TEST_CASE("edge cases") {
     //    check that switch the root working
     CHECK(str=="20,2,5,3,6,4,");
     str="";
-
-
 
 }

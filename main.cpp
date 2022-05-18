@@ -1,9 +1,7 @@
 #include <iostream>
-#include <stdexcept>
 #include "string"
 #include "sources/OrgChart.hpp"
-#include <sstream>
-#include <fstream>
+
 
 using namespace ariel;
 using namespace std;

@@ -76,10 +76,7 @@ namespace ariel{
 
     public:
 
-//        OrgChart():root{nullptr}{}
-//
-//        OrgChart(const OrgChart& other){
-//    }
+
         OrgChart()=default;
         OrgChart(OrgChart<T> &other){
             this->root=other.root;
